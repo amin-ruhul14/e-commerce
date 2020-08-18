@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -366,6 +369,8 @@ body{
 }
 .single-product img{
     height: 400px;
+    width: 80%;
+    margin-left: 15%;
     
 }
 .new-arrival{
