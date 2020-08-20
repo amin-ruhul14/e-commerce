@@ -105,6 +105,7 @@ body{
 
 /* Start Side Menu Section  */
 .side-menu{
+    height: 500px;
     width: 15%;
     font-size: 14px;
     float: left;
@@ -130,7 +131,7 @@ body{
 }
 .side-menu ul li:hover ul{
     display: block;
-    height: 400px;
+    height: 300px;
     margin-left: 14%;
     padding: 0 100px 10px 10px;
     position: fixed;
@@ -152,6 +153,7 @@ body{
 {
     .side-menu{
         width: 34%;
+        height: 300px;
         z-index: 20;
         top: 133px;
         position: fixed;
@@ -177,6 +179,9 @@ body{
     margin-left: 15%;
     padding: 0 10px;
 }
+.slider img{
+    height: 500px;
+}
 .carousel{
     box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
 }
@@ -194,6 +199,9 @@ body{
     .slider{
         width: 100%;
         margin: 0;
+    }
+    .slider img{
+        height: 300px;
     }
 }
 /* End Slider Section */
